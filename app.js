@@ -18,15 +18,3 @@ btn.addEventListener("click", function() {
 const getRandomNumber = () => {
     return Math.floor(Math.random() * hex.length);
 };
-
-/*
-btn.addEventListener("click", function() {
-    const randomNumber = getRandomNumber();
-    console.log(randomNumber);
-    document.body.style.backgroundColor = colors[randomNumber];
-    color.textContent = colors[randomNumber];
-});
-
-const getRandomNumber = () => {
-    return Math.floor(Math.random() * colors.length);
-}; */
